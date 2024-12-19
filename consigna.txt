@@ -1,0 +1,39 @@
+Desarrollar un servidor que escuche en el puerto 8080
+
+Manejara dos grupos de rutas /products y /carts. Dichos endpoints estaran implementados con el
+router de express, con las siguientes especificaciones:
+
+Para el mandejo de productos, el cual tendra su router en /api/products,
+configurar las siguientes rutas:
+    RUTA RAIZ GET "/": Debera listar todos los productos de la base de datos.
+    RUTA GET "/:pid": Debera traer solo el producto con el ID proporcionado.
+    RUTA RAIZ POST "/": Debera agreagr un nuevo producto con los campos:
+        1- ID: Numero, se carga automaticamente desde el programa
+        2- title: String
+        3- description: String
+        4- code: String
+        5- price: Number
+        6- status: Boolean
+        7- stock: Number
+        8- category: String
+        9- thumbnail: String que contenga la ruta de la imagen
+    RUTA PUT "/:pid": Debera tomar un producto y actualizarlo por los campos enviados desde el body
+    NUNCA se debe actualizar o eliminar el id al momento de hacer dicha actualizacion
+    RUTA DELETE "/:pid": Debera eliminar el producto con el pid indicado
+
+Para el carrito, el cual tendra su router en /api/carts/, configurar dos rutas:
+    RUTA RAIZ POST "/": Debera crear un nuevo carrito con la siguiente estructura:
+        1- ID: Se debe autogerar e incrementar
+        2- products: Array que contendra objetos que representen cada producto
+    RUTA GET "/:cid": Debera listar los productos que pertenezcan al carrito con el parametro cid
+    RUTA POST "/:cid/product/:pid: Debera agregar el producto al arreglo, agregandose como un
+    objeto bajo el siguiente formato:
+        1- product: SOLO DEBE CONTENER EL ID DEL PRODUCTO (No agregar el producto completo)
+        2- quantity: Debe contener el numero de ejemplares de dicho producto
+    Ademas debemos validar si un producto ya existe, para en ese caso incrementar quantity
+    de dicho producto.
+
+La persistencia de la informacion se implementara utilizando el file system, donde los archivos
+"products.json" y "carts.json" respaldaran la informacion. Para ello, debera utilizar el
+ProductManager de la activad 2 y crear un cartManager que gestione el almacenamiento de dichos
+archivos JSON.

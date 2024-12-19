@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Medialuna",
+    "description": "Medialuna de manteca glaseada",
+    "price": 250,
+    "thumbnail": "https://images.unsplash.com/photo-1556679956-3e28714df9b8",
+    "code": "MEDI1234",
+    "stock": 60,
+    "category": "porcion",
+    "id": 1,
+    "status": true
+  },
+  {
+    "title": "Cañoncito de Dulce de Leche",
+    "description": "Hojaldre relleno de dulce de leche y espolvoreado con azúcar glas",
+    "price": 300,
+    "thumbnail": "https://images.unsplash.com/photo-1550309455-148291c2e746",
+    "code": "CANO1234",
+    "stock": 40,
+    "category": "porcion",
+    "id": 2,
+    "status": true
+  },
+  {
+    "title": "Torta Rogel",
+    "description": "Clásica torta Rogel con hojaldre y merengue italiano",
+    "price": 1800,
+    "thumbnail": "https://images.unsplash.com/photo-1587314198157-6e7213f2b673",
+    "code": "ROGE1234",
+    "stock": 10,
+    "category": "torta",
+    "id": 3,
+    "status": true
+  },
+  {
+    "title": "Alfajor de Maicena",
+    "description": "Alfajor relleno de dulce de leche y coco rallado",
+    "price": 200,
+    "thumbnail": "https://images.unsplash.com/photo-1584589168336-2d4f84e64d1f",
+    "code": "ALFA1234",
+    "stock": 80,
+    "category": "porcion",
+    "id": 4,
+    "status": true
+  },
+  {
+    "title": "Cheesecake de Frutos Rojos",
+    "description": "Base crocante con crema de queso y frutos rojos frescos",
+    "price": 2200,
+    "thumbnail": "https://images.unsplash.com/photo-1604157568864-9f35e5d93865",
+    "code": "CHEE1234",
+    "stock": 12,
+    "category": "torta",
+    "id": 5,
+    "status": true
+  },
+  {
+    "title": "Chocotorta",
+    "description": "Postre de galletitas de chocolate y crema de dulce de leche",
+    "price": 1500,
+    "thumbnail": "https://images.unsplash.com/photo-1625944222443-9db63a8a43d0",
+    "code": "CHOC1234",
+    "stock": 15,
+    "category": "torta",
+    "id": 6,
+    "status": true
+  },
+  {
+    "title": "Brownie",
+    "description": "Porción de brownie con nueces",
+    "price": 400,
+    "thumbnail": "https://images.unsplash.com/photo-1545127398-48e6acc6d7dd",
+    "code": "BROW1234",
+    "stock": 30,
+    "category": "porcion",
+    "id": 7,
+    "status": true
+  },
+  {
+    "title": "Lemon Pie",
+    "description": "Tarta de limón con merengue gratinado",
+    "price": 1700,
+    "thumbnail": "https://images.unsplash.com/photo-1562007907-09699d52a04f",
+    "code": "LEMO1234",
+    "stock": 20,
+    "category": "torta",
+    "id": 8,
+    "status": true
+  },
+  {
+    "title": "Tarta de Frutilla",
+    "description": "Base crocante con crema pastelera y frutillas frescas",
+    "price": 1900,
+    "thumbnail": "https://images.unsplash.com/photo-1551879337-6e9ccea9dc3f",
+    "code": "FRUT1234",
+    "stock": 18,
+    "category": "torta",
+    "id": 9,
+    "status": true
+  },
+  {
+    "title": "Macaron",
+    "description": "Galletas de almendra rellenas de ganache de chocolate",
+    "price": 150,
+    "thumbnail": "https://images.unsplash.com/photo-1570197571499-28e8c6bfeac6",
+    "code": "MACA1234",
+    "stock": 100,
+    "category": "porcion",
+    "id": 10,
+    "status": true
+  },
+  {
+    "title": "Donas Glaseadas",
+    "description": "Donas con glaseado de colores surtidos",
+    "price": 350,
+    "thumbnail": "https://images.unsplash.com/photo-1555244162-803834f70033",
+    "code": "DONA1234",
+    "stock": 45,
+    "category": "porcion",
+    "id": 11,
+    "status": true
+  },
+  {
+    "title": "Cookies de Chocolate",
+    "description": "Galletas crocantes con chips de chocolate",
+    "price": 250,
+    "thumbnail": "https://images.unsplash.com/photo-1595476102788-43c2ef8b9884",
+    "code": "COOK1234",
+    "stock": 55,
+    "category": "porcion",
+    "id": 12,
+    "status": true
+  },
+  {
+    "title": "Budín de Naranja",
+    "description": "Budín húmedo con glaseado de naranja",
+    "price": 800,
+    "thumbnail": "https://images.unsplash.com/photo-1517686469429-8bdb88b9d0b6",
+    "code": "BUDI1234",
+    "stock": 25,
+    "category": "porcion",
+    "id": 13,
+    "status": true
+  },
+  {
+    "title": "Brownie Clásico",
+    "description": "Brownie de chocolate semi amargo con nueces y una capa de azúcar glas.",
+    "price": 250,
+    "thumbnail": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+    "code": "BROWNIE1234",
+    "stock": 50,
+    "id": 14,
+    "satus": true,
+    "category": "porcion"
+  },
+  {
+    "title": "Cuabanito",
+    "description": "Cubanito relleno de DDL",
+    "price": 120,
+    "thumbnail": "https://images.unsplash.com/photo-1578985545062-69928b1d9587",
+    "code": "CUBAN1T0",
+    "stock": 100,
+    "category": "porcion",
+    "id": 15,
+    "status": true
+  }
+]
