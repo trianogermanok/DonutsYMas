@@ -1,5 +1,5 @@
 import fs from 'fs';
-import productManager from '../app.js';
+import productManager from '../routers/products.router.js';
 
 class CartManager {
     static idAuto = 0;
@@ -79,7 +79,7 @@ class CartManager {
                 }
                 try {
                     const cart = JSON.parse(data);
-                    resolve(cart)
+                    return resolve(cart)
                 } catch (parseError) {
                     console.error(`Error al parsear JSON: ${parseError}`)
                     resolve([]);

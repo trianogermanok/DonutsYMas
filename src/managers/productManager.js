@@ -110,7 +110,7 @@ class ProductManager {
 
     async getProductById(id){
         const products = await this.getProducts();
-        return products.find(element => element.id === id) || null
+        return products.find(element => element.id === id) || null;
     }
 
     getProducts(){
